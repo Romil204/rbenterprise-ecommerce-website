@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('product\ image/back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu li:first-child {
+    margin-left: 0;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    transition: color 0.2s ease;
+}
+
+.menu a:hover {
+    color: #ffd700; /* Change to your desired link hover color */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: auto;;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.careers-section {
+    max-width: 800px;    
+    margin: 0 auto;
+}
+
+.careers-section h2 {
+    color: #007bff;
+   
+}
+
+.job-listing {
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    padding: 2px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.job-listing h3 {
+    color: #555;
+}
+
+.job-listing p {
+    margin-bottom: 20px;
+}
+
+.job-listing a {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.job-listing a:hover {
+    background-color: #0056b3;
+}
+
+
+/* Your existing styles */
+
+.track-application-section {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 2px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: #f2f2f2;
+
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+.track-application-section h2 {
+    color: #007bff;
+}
+
+.track-application-section p {
+    margin-bottom: 10px;
+}
+
+.track-application-section form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.track-application-section label {
+    margin-bottom: 5px;
+}
+
+.track-application-section input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.track-application-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.track-application-section button:hover {
+    background-color: #0056b3;
+}
+
+
+/*footer start*/
+
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    margin-top: 50px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-links,
+.footer-contact,
+.footer-social {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+ul li a:hover {
+    color: #ff5722;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.footer-text a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}

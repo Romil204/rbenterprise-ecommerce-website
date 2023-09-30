@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancellation Page</title>
+    <link rel="stylesheet" href="Cancellation.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="logo">RB Enterprise</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="cancellation-form">
+            <h2>Order Cancellation Form</h2>
+            <p>Please provide the following details to cancel your order:</p>
+            <form action="/cancel_order" method="POST">
+                <label for="order_id">Order ID:</label>
+                <input type="text" id="order_id" name="order_id" required>
+
+                <label for="order_id">E-mail ID:</label>
+                <input type="text" id="order_id" name="order_id" required>
+
+                <label for="reason">Reason for Cancellation:</label>
+                <textarea id="reason" name="reason" rows="4" required></textarea>
+
+                
+
+                  <div class="payment-button">
+                    <a href="returnsubmit.html">
+                    <button> Submit </button>
+                </a>
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="carrers.html">careers</a></li>
+                    <li><a href="Cancellation.html">Cancellation </a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="return.html">Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: rbenterprisecare@gmail.com</p>
+                <p>Phone: +91 6355740657</p>
+                <p>Address: Rajhans Swapna, Surat , Gujarat, 395006</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://facebook.com/rbenterprise" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/rbenterprise" target="_blank">Twitter</a></li>
+                    <li><a href="https://instagram.com/rbenterprise" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-text">&copy; 2023 RB Enterprise. All rights reserved.</p>
+    </footer>
+
+
+   
+</body>
+</html>
